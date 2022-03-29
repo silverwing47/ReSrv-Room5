@@ -1,6 +1,6 @@
 <?php
   ob_start();
-  $conn =mysqli_connect("localhost","root","","db_resrv");
+  $conn =mysqli_connect("trial-resrv-server.mysql.database.azure.com","ibiafyiben@trial-resrv-server.mysql.database.azure.com","T305N716R2MRA86J$","db_resrv");
   if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
   }
